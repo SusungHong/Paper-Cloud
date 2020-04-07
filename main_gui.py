@@ -3,7 +3,6 @@ import embed
 import os
 import sys
 import json
-import numpy as np
 import pandas as pd
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
@@ -70,6 +69,9 @@ class MainWidget(QWidget):
         save_info_btn.clicked.connect(self.save_info_btn_clicked)
         leftbox.addWidget(save_info_btn)
 
+        emb_label = QLabel("Embeddings")
+        leftbox.addWidget(emb_label)
+
         # Re-embed box
         rform = QFrame()
         leftbox.addWidget(rform)
@@ -89,7 +91,7 @@ class MainWidget(QWidget):
         box.addWidget(reembed_btn)
 
         # Save embedding button
-        saveembed_btn = QPushButton("Save Embedding")
+        saveembed_btn = QPushButton("Save Embedding and Paper Info")
         saveembed_btn.clicked.connect(self.saveembed_btn_clicked)
         leftbox.addWidget(saveembed_btn)
 
