@@ -19,7 +19,7 @@ numpy==1.18.1
 pandas==1.0.3
 pycryptodome==3.9.7
 pyparsing==2.4.6
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 PyQt5==5.13.0
 PyQt5-sip==12.7.1
 pyqt5-tools==5.13.0.1.5
