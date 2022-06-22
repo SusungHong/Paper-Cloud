@@ -15,7 +15,7 @@ mkl-fft==1.0.15
 mkl-random==1.1.0
 mkl-service==2.3.0
 nltk==3.4.5
-numpy==1.18.1
+numpy==1.22.0
 pandas==1.0.3
 pycryptodome==3.9.7
 pyparsing==2.4.6
