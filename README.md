@@ -9,13 +9,17 @@ Paper Cloud 는 pdf 형태의 각 논문을 추출해서 bag-of-words 의 형태
 t-SNE 라는 임베딩 기법을 통해 이를 연구자에게 직관적인 2차원 구름(cloud)의 형태로 보여주는 것이 기본적인 아이디어이다.
 위와 같은 아이디어를 실제로 사용해 생산성을 높일 수 있도록 이번 프로젝트에서는 Python 과 JDK 를 이용해 GUI 와 여러 필수 기능까지 구현하는 것을 목표로 한다.
 
+## Product Features
+![multiselect](https://user-images.githubusercontent.com/5498512/193402693-b6000b3a-c932-425d-b76f-2e0399beb852.png)
+![rubberband](https://user-images.githubusercontent.com/5498512/193402695-abb0a736-5ec9-45d1-8494-4fa5618244d5.png)
+![mainwindow](https://user-images.githubusercontent.com/5498512/193402696-bce0acd5-b4a6-488f-a433-38b70f584181.png)
+
 ## Dependencies
 
 <pre>
 tika-server-1.19.jar
 cermine-1.13.jar
 </pre>
-
 <pre>
 arxiv2bib==1.0.8
 bibtexparser==1.1.0
